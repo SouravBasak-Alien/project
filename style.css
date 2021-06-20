@@ -1,0 +1,130 @@
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+.button{
+    padding: 2px 25px;
+    background-color: aqua;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+.nav-bg{
+    background-color: whitesmoke;
+    width: 80%;
+   
+}
+nav li:hover{
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+.repair-section{
+    margin-top: 15rem;
+}
+
+.tap-button{
+    border: 0;
+    background-color: rgb(42, 184, 250);
+    padding: 15px 30px;
+}
+section .box-footer{
+    background-color: white;
+    border:0 ;
+}
+section .box-footer > i {
+    background-color: gray;
+    font-size: 1rem;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    
+}
+section .card{
+    border-radius: 1rem;
+}
+
+.client > i {
+     background-color: gray;
+     color: white;
+     padding: 10px;
+     font-size: 10px;
+     border-radius: 10px;
+     margin: 10px;
+     cursor: pointer;
+}
+
+.position-img img{
+   
+        
+        height: 150px;
+        width: 100%;
+      
+}
+.card-boxs{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 2px;
+   
+    margin-left: 20px;
+   
+    
+}
+section .position-box{
+    top: 20%;
+    
+}
+.service-img img{
+    border-bottom: 10px solid #00e1ff;
+}
+footer input{
+    width: 150px;
+    padding: 0;
+}
+.footer-button{
+    border: 0;
+    background-color: cyan;
+    color: white;
+    padding: 3px 5px;
+}
+
+
+
+
+
+
+@media (min-width: 768px) { 
+    .nav-bg{
+        background-color: white;
+        width: 80%;
+    }
+ }
+
+
+section .position-box{
+    top: 20%;
+    
+    
+    
+}
+
+
+
+@media (max-width: 500.98px) { 
+   
+    .card-boxs{
+        border: 1px solid gray;
+        border-radius: 10px;
+        padding: 2px;
+       
+        margin-left: 20px;
+       
+        
+    }
+    section .position-box{
+        top: 20%;
+       
+        
+        
+    }
+    
+
+ }
